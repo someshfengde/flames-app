@@ -6,6 +6,7 @@ import numpy as np
 import pandas as pd
 
 app = Dash(__name__, external_stylesheets=[dbc.themes.SKETCHY])
+server = app.server
 
 app.layout = dbc.Container(
     [
